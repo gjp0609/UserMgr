@@ -1,0 +1,8 @@
+tr > td:first-child {
+    padding-left: 30px;
+    text-align: right;
+}
+
+tr {
+    line-height: 30px;
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>UserLoginAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.UserLoginAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLoginAction</servlet-name>
+        <url-pattern>/userLoginAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLoginAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.AdminLoginAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginAction</servlet-name>
+        <url-pattern>/adminLoginAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminSelectAllAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.AdminSelectAllAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminSelectAllAction</servlet-name>
+        <url-pattern>/adminSelectAllAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLoginJsp</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.jsp.AdminLoginJsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginJsp</servlet-name>
+        <url-pattern>/adminLoginJsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSignupAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.UserSignupAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserSignupAction</servlet-name>
+        <url-pattern>/userSignupAction</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserUpdateAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.UserUpdateAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserUpdateAction</servlet-name>
+        <url-pattern>/userUpdateAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSignupJsp</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.jsp.UserSignupJsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserSignupJsp</servlet-name>
+        <url-pattern>/userSignupJsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserUpdateJsp</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.jsp.UserUpdateJsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserUpdateJsp</servlet-name>
+        <url-pattern>/userUpdateJsp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserUpdateByAdminAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.UserUpdateByAdminAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserUpdateByAdminAction</servlet-name>
+        <url-pattern>/userUpdateByAdminAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserDeleteAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.UserDeleteAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDeleteAction</servlet-name>
+        <url-pattern>/userDeleteAction</url-pattern>
+    </servlet-mapping>
+</web-app>
