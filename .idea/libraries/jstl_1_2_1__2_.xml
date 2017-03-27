@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="ojdbc6_g (2)">
+  <library name="jstl-1.2_1 (2)">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/ojdbc6_g.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2_1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

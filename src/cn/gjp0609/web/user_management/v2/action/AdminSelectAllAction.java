@@ -21,6 +21,7 @@ public class AdminSelectAllAction extends HttpServlet {
         resp.setContentType("text/html;charset:utf-8");
         List<User> users = new UserServiceImpl().selectAllUsers();
         req.setAttribute("users", users);
-        req.getRequestDispatcher("/adminLoginJsp").forward(req, resp);
+
+        req.getRequestDispatcher("test.jsp").forward(req, resp);
     }
 }

@@ -1,5 +1,9 @@
 UserManager
 --------
 - action
-    - AdminLoginAction.java
-    - 
+    - AdminLoginAction
+    - AdminSelectAllAction
+    - ....
+- dao
+
+    
