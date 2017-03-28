@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    line-height: 40px;
+}
+
 tr > td:first-child {
     padding-left: 30px;
     text-align: right;
@@ -5,4 +10,20 @@ tr > td:first-child {
 
 tr {
     line-height: 30px;
+}
+
+body {
+    /*background-color: #DFFFEF;*/
+    background: url("/usermgr/bGImageAction");
+}
+
+table {
+    /*display: block;*/
+    margin: auto;
+}
+
+.ac {
+    width: auto;
+    margin: auto;
+    text-align: center;
 }

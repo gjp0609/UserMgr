@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/../../GreenSoftware/apache-tomcat-9.0.0.M17/lib/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../GreenSoftware/apache-tomcat-9.0.0.M17/lib/servlet-api.jar!/" />
+    </SOURCES>
   </library>
 </component>

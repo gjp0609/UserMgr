@@ -31,12 +31,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>AdminLoginJsp</servlet-name>
-        <servlet-class>cn.gjp0609.web.user_management.v2.jsp.AdminLoginJsp</servlet-class>
+        <servlet-name>SelectAllUsersJsp</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.jsp.SelectAllUsersJsp</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>AdminLoginJsp</servlet-name>
-        <url-pattern>/adminLoginJsp</url-pattern>
+        <servlet-name>SelectAllUsersJsp</servlet-name>
+        <url-pattern>/selectAllUsersJsp</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -89,5 +89,23 @@
     <servlet-mapping>
         <servlet-name>UserDeleteAction</servlet-name>
         <url-pattern>/userDeleteAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VerifiyCodeAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.VerifiyCodeAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifiyCodeAction</servlet-name>
+        <url-pattern>/verifiyCodeAction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BGImageAction</servlet-name>
+        <servlet-class>cn.gjp0609.web.user_management.v2.action.BGImageAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BGImageAction</servlet-name>
+        <url-pattern>/bGImageAction</url-pattern>
     </servlet-mapping>
 </web-app>

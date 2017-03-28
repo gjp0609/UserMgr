@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
+ * 用户注册 action
  * Created by gjp06 on 17.3.24.
  */
 public class UserSignupAction extends HttpServlet {
@@ -21,6 +22,7 @@ public class UserSignupAction extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("text/html;charset:utf-8");
         resp.setCharacterEncoding("utf-8");
+
 
         String username = req.getParameter("username");
         String password = req.getParameter("password");
